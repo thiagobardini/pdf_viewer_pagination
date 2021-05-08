@@ -1,0 +1,86 @@
+body {
+  width: 1200px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  background-color:#ffffff;
+  color: rgb(150, 150, 150);
+}
+
+#container {
+  background-color: #ffffff;
+}
+
+header {
+  display: flex;  
+  background-color:#3D3C42;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.btn {
+  width: 150px;
+  background: rgb(0, 230, 150);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.7rem 2rem;
+  margin: 1rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.page-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pdf {
+  margin: 0 auto;
+}
+
+#prev {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#next {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  opacity: 0.9;
+  color: rgb(0, 230, 150);
+}

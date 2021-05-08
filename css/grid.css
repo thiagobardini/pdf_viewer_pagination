@@ -1,0 +1,39 @@
+#container {
+  display: grid;
+  width: 100%;
+  height: 155px;
+  grid-template-columns: repeat(10% 1fr);
+  grid-template-rows: repeat(auto);
+  grid-template-areas:
+    "header header header"
+    "info info info"
+    "next canvas prev"
+    "footer footer footer"
+}
+
+#container > header {
+  grid-area: header;
+  /* background-color: darkslateblue; */
+}
+
+#container > #info {
+  grid-area: info;
+  /* background-color: darkred; */
+}
+
+#container > #prev {
+  grid-area: prev;
+}
+
+#container > #pdf {
+  grid-area: canvas;
+}
+
+#container >  #next {
+  grid-area: next;
+}
+
+#container >  footer {
+  grid-area: footer;
+  background-color:#3D3C42;
+}

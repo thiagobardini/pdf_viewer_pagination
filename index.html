@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/4053e14bcc.js" crossorigin="anonymous"></script>
+  <title>PDF Viewer and Pagination</title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <img class="logo" src="./image/signifyLogo2.jpg">
+    </header>
+    <section id="info">
+      <span class="page-info">
+        Page &nbsp<span id="page-num"></span>&nbsp of &nbsp<span id="page-count"></span>
+    </section>
+    <section id="next">
+      <button class="btn" id="prev-page">
+        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Previous
+      </button>
+    </section>
+    <section id="pdf">
+    <canvas id="pdf-render"></canvas>
+    </section>
+    <section id="prev">
+      <button class="btn" id="next-page">
+        Next <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+      </button>
+    </section>
+    <footer>
+      <p>Copyright &copy; 2021 - by &nbsp<a href="https://www.thiagobardini.com" className="button gitRepo"
+          data-abc="true">Thiago Bardini</a></p>
+    </footer>
+  </div>
+  <!-- PDF JS -->
+  <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
