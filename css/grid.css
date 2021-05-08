@@ -50,8 +50,8 @@
     grid-template-areas:
       "header header"
       "info info"
-      "next prev"
       "canvas canvas"
+      "next prev"
       "footer footer";
   }
 
@@ -87,8 +87,8 @@
     grid-template-areas:
       "header header"
       "info info"
-      "next prev"
       "canvas canvas"
+      "next prev"
       "footer footer";
   }
 
@@ -124,8 +124,8 @@
     grid-template-areas:
       "header header"
       "info info"
-      "next prev"
       "canvas canvas"
+      "next prev"
       "footer footer";
   }
 

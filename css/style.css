@@ -1,6 +1,4 @@
 body {
-  width: 1200px;
-  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   background-color:#3D3C42;
   color: rgb(150, 150, 150);
@@ -15,7 +13,7 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  margin-left: 40px;
+  margin-left: 5%;
 }
 
 .btn {
