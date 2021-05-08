@@ -18,22 +18,24 @@
 
 #container > #info {
   grid-area: info;
-  /* background-color: darkred; */
+  background-color:#ffffff;
 }
 
 #container > #prev {
   grid-area: prev;
+  background-color:#ffffff;
 }
 
 #container > #pdf {
   grid-area: canvas;
+  background-color:#ffffff;
 }
 
 #container >  #next {
   grid-area: next;
+  background-color:#ffffff;
 }
 
 #container >  footer {
-  grid-area: footer;
-  background-color:#3D3C42;
+  grid-area: footer;  
 }

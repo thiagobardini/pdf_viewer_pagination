@@ -2,12 +2,8 @@ body {
   width: 1200px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
-  background-color:#ffffff;
+  background-color:#3D3C42;
   color: rgb(150, 150, 150);
-}
-
-#container {
-  background-color: #ffffff;
 }
 
 header {
@@ -19,6 +15,7 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  margin-left: 40px;
 }
 
 .btn {
@@ -43,14 +40,16 @@ header {
   justify-content: center;
 }
 
-#pdf {
-  margin: 0 auto;
-}
-
 #prev {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+#pdf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #next {
